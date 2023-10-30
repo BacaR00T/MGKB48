@@ -5,8 +5,8 @@
 ![mgkb48](https://github.com/BacaR00T/MGKB48/assets/81833517/43564939-5fd0-44ae-843e-08f6653fc776)
 
 
-# CODE info
-To be able to use the nice!nano (or any toher clone with nRF52840) and KMK, it's needed to compile the kmk library it self and also the adafruit_ble library. For that you can use mpy-cross, to learn how to do that
+# MCU file configuration
+To be able to use the nice!nano (or any other MCU with nRF52840) and KMK, it's needed to compile the kmk library and the adafruit_ble library since usable flash is only ~256kb. How to you can find [here](https://kmkfw.io/docs/Officially_Supported_Microcontrollers).
 
 
 # PCB
