@@ -1,5 +1,5 @@
 # MGKB48
-~Wireless ergo keeb
+~Wireless ergo keeb <br>
 ~Left and right part connects to the main powerboard with nice!_nano (or any another pro micro pinout MCU). This main board also includes IP5306 charging circuit to be able to use Li-Po 18650 batteries.
 
 ![mgkb48](https://github.com/BacaR00T/MGKB48/assets/81833517/43564939-5fd0-44ae-843e-08f6653fc776)
