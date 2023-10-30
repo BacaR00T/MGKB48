@@ -6,7 +6,7 @@
 
 
 # MCU file configuration
-To be able to use the nice!nano (or any other MCU with nRF52840) and KMK, it's needed to compile the kmk library and the adafruit_ble library since usable flash is only ~256kb. How to you can find [here](https://kmkfw.io/docs/Officially_Supported_Microcontrollers).
+To be able to use the nice!nano (or any other MCU with nRF52840) and KMK, it's needed to compile the [kmk library](https://kmkfw.io/docs/Getting_Started) and the [adafruit_ble](https://github.com/adafruit/Adafruit_CircuitPython_BLE/tree/main/adafruit_ble) library since usable flash is only ~256kb. How to you can find [here](https://kmkfw.io/docs/Officially_Supported_Microcontrollers).
 
 
 # PCB
