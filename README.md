@@ -1,7 +1,7 @@
 # MGKB48
 Wireless ergo keeb 
 
-
+![mgkb48](https://github.com/BacaR00T/MGKB48/assets/81833517/43564939-5fd0-44ae-843e-08f6653fc776)
 ![Screenshot from 2023-10-07 15-43-36](https://github.com/BacaR00T/MGKB48/assets/81833517/d8f7f681-150d-416c-a624-c4bb8dc74a29)
 ![Screenshot from 2023-10-07 15-44-19](https://github.com/BacaR00T/MGKB48/assets/81833517/eddfc508-3062-4606-a9ec-e8fb9a15d32b)
 
