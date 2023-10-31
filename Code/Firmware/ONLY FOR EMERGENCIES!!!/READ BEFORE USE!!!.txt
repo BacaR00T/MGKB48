@@ -1,0 +1,3 @@
+!!!ONLY FOR EMERGENCIES!!!
+THIS FILE WILL NUKE YOUR MCU!!!
+Okay, it ain't as bad as it sounds, it just clears the circuit python fw install :)
