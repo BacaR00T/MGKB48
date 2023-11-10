@@ -25,18 +25,6 @@ LOWER = KC.MO(1)
 RAISE = KC.MO(2)
 EXTRA = KC.MO(3)
 
-#from kmk.extensions.RGB import RGB
-#rgb = RGB(
-#    pixel_pin=board.GP27, 
-#    num_pixels=2, 
-#    hue_default =100, 
-#    sat_default=255, 
-#    val_default=10,	
-#    )
-#keyboard.extensions.append(rgb)
-
-
-
 keyboard.keymap = [
     #KEYS
     [
@@ -85,8 +73,8 @@ trackball.set_white(0)
 
 
 keyboard.debug_enabled = True
-#from kmk.hid import HIDModes
+from kmk.hid import HIDModes
 
 if __name__ == '__main__':
-    keyboard.go()
-    #hid_type=HIDModes.BLE, ble_name='MGKB48'
+    keyboard.go(hid_type=HIDModes.BLE, ble_name='MGKB48')
+    
