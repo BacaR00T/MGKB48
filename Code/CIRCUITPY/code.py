@@ -8,7 +8,7 @@ from kmk.scanners import DiodeOrientation
 from kmk.modules.layers import Layers
 from kmk.extensions.media_keys import MediaKeys
 from kmk.modules.mouse_keys import MouseKeys
-#from kmk.hid import HIDModes
+from kmk.hid import HIDModes
 
 
 keyboard = KMKKeyboard()
