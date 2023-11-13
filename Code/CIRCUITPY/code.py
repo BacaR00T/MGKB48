@@ -45,18 +45,17 @@ keyboard.keymap = [
     #RAISE  
     [
         KC.F1,       KC.F2,      KC.F3,      KC.F4,     KC.F5,       KC.F6,          KC.F7,       KC.F8,      KC.F9,      KC.F10,    KC.F11,      KC.F12,
-        KC.TRNS,     KC.TRNS,    KC.TRNS,    KC.TRNS,   KC.SLCK,     KC.PSCR,        KC.LEFT,     KC.UP,   KC.DOWN,      KC.RIGHT,   KC.TRNS,     KC.TRNS,
+        KC.TRNS,     KC.TRNS,    KC.TRNS,    KC.TRNS,   KC.SLCK,     KC.PSCR,        KC.LEFT,     KC.UP,      KC.DOWN,    KC.RIGHT,  KC.TRNS,     KC.TRNS,
         KC.TRNS,     KC.TRNS,    KC.TRNS,    KC.TRNS,   KC.TRNS,     KC.TRNS,        KC.TRNS,     KC.TRNS,    KC.TRNS,    KC.TRNS,   KC.TRNS,     KC.TRNS,
-        KC.RESET,     KC.TRNS,    KC.TRNS,  KC.TRNS,   KC.TRNS,     KC.TRNS,        KC.TRNS,     KC.TRNS,    KC.TRNS,    KC.TRNS,   KC.TRNS,     KC.TRNS,
+        KC.TRNS,     KC.TRNS,    KC.TRNS,    KC.TRNS,   KC.TRNS,     KC.TRNS,        KC.TRNS,     KC.TRNS,    KC.TRNS,    KC.TRNS,   KC.TRNS,     KC.TRNS,
 
     ],
     #EXTRA
     [
-        KC.F1,       KC.F2,      KC.F3,      KC.F4,     KC.F5,       KC.F6,          KC.F7,       KC.F8,      KC.F9,      KC.F10,    KC.F11,      KC.F12,
-        KC.TRNS,     KC.TRNS,    KC.TRNS,    KC.TRNS,   KC.SLCK,     KC.PSCR,        KC.LEFT,     KC.RIGHT,   KC.UP,      KC.DOWN,   KC.TRNS,     KC.TRNS,
+        KC.RESET,     KC.TRNS,    KC.TRNS,    KC.TRNS,   KC.TRNS,     KC.TRNS,        KC.TRNS,     KC.TRNS,    KC.TRNS,    KC.TRNS,   KC.TRNS,     KC.TRNS,
         KC.TRNS,     KC.TRNS,    KC.TRNS,    KC.TRNS,   KC.TRNS,     KC.TRNS,        KC.TRNS,     KC.TRNS,    KC.TRNS,    KC.TRNS,   KC.TRNS,     KC.TRNS,
-        KC.RESET,     KC.TRNS,    KC.TRNS,  KC.TRNS,   KC.TRNS,     KC.TRNS,        KC.TRNS,     KC.TRNS,    KC.TRNS,    KC.TRNS,   KC.TRNS,     KC.TRNS,
-        
+        KC.TRNS,     KC.TRNS,    KC.TRNS,    KC.TRNS,   KC.TRNS,     KC.TRNS,        KC.TRNS,     KC.TRNS,    KC.TRNS,    KC.TRNS,   KC.TRNS,     KC.TRNS,
+        KC.TRNS,     KC.TRNS,    KC.TRNS,    KC.TRNS,   KC.TRNS,     KC.TRNS,        KC.TRNS,     KC.TRNS,    KC.TRNS,    KC.TRNS,   KC.TRNS,     KC.TRNS,
     ],
 ]
 from kmk.modules.pimoroni_trackball import Trackball, TrackballMode
