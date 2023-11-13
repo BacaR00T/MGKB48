@@ -24,6 +24,7 @@ keyboard.diode_orientation = DiodeOrientation.COL2ROW
 LOWER = KC.MO(1)
 RAISE = KC.MO(2)
 EXTRA = KC.MO(3)
+TRCK_BLL = KC.TRNS
 
 keyboard.keymap = [
     #KEYS
@@ -31,7 +32,7 @@ keyboard.keymap = [
         KC.ESC,     KC.Q,       KC.W,       KC.E,       KC.R,       KC.T,           KC.Y,       KC.U,       KC.I,       KC.O,       KC.P,           KC.BSLS,  
         KC.CAPS,    KC.A,       KC.S,       KC.D,       KC.F,       KC.G,           KC.H,       KC.J,       KC.K,       KC.L,       KC.SCOLON,      KC.QUOT,    
         KC.LSHIFT,  KC.Z,       KC.X,       KC.C,       KC.V,       KC.B,           KC.N,       KC.M,       KC.COMMA,   KC.DOT,     KC.SLASH,       KC.EQL,    
-        KC.LCTRL,   KC.LGUI,    KC.LALT,    KC.TAB,     KC.BSPC,    KC.SPC,         KC.TRNS,    KC.ENT,     KC.MINS,    LOWER,      EXTRA,          RAISE,    
+        KC.LCTRL,   KC.LGUI,    KC.LALT,    KC.TAB,     KC.BSPC,    KC.SPC,         TRCK_BLL,    KC.ENT,     KC.MINS,    LOWER,      EXTRA,          RAISE,    
     
     ],
     #LOWER
