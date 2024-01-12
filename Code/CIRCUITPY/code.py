@@ -8,8 +8,6 @@ from kmk.scanners import DiodeOrientation
 from kmk.modules.layers import Layers
 from kmk.extensions.media_keys import MediaKeys
 from kmk.modules.mouse_keys import MouseKeys
-from kmk.hid import HIDModes
-
 
 keyboard = KMKKeyboard()
 layers_ext = Layers()
@@ -76,5 +74,5 @@ keyboard.debug_enabled = True
 from kmk.hid import HIDModes
 
 if __name__ == '__main__':
-    keyboard.go(hid_type=HIDModes.BLE, ble_name='MGKB48')
+    keyboard.go()
     
